@@ -1,10 +1,16 @@
-const CTA = () => {
+import resume from "../../assets/ABC id.pdf";
+
+const Cta = () => {
   return (
     <div className="cta">
-      <a href="">Resume</a>
-      <a href="#contact">Let's Talk</a>
+      <a href={resume} download className="btn">
+        Download CV
+      </a>
+      <a href="#contact" className="btn btn-primary">
+        Let&apos;s Talk
+      </a>
     </div>
   );
 };
 
-export default CTA;
+export default Cta;

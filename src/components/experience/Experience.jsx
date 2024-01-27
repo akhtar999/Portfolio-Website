@@ -1,6 +1,6 @@
 import "./Experience.css";
 const Experience = () => {
-  return <div>Experience</div>;
+  return <section id="experience">Experience</section>;
 };
 
 export default Experience;
