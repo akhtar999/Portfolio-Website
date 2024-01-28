@@ -69,3 +69,33 @@
   color: var(--color-light);
 }
 
+/*=========================== MEDIA QUERIES (MEDIUM DEVICES) ex: tablet ===================================*/
+
+@media screen and (max-width: 1024px) {
+  .about_container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .about_me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+  }
+  .about_content p {
+    margin: 2rem 0 2.5rem;
+  }
+  .about_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*=========================== MEDIA QUERIES (SMALL DEVICES) ex: Mobile device ===================================*/
+
+@media screen and (max-width: 600px) {
+  .about_me {
+    width: 65%;
+    margin: 0 auto 3rem;
+  }
+  .about_content {
+    text-align: center;
+  }
+}
