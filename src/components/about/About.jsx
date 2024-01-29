@@ -1,9 +1,9 @@
 import "./About.css";
 import ME from "../../assets/me2.jpg";
-import { FaAward } from "react-icons/fa";
+// import { FaAward } from "react-icons/fa";
 import { LiaProjectDiagramSolid } from "react-icons/lia";
-import { VscFolderActive } from "react-icons/vsc";
-import { RiChatSmile2Fill } from "react-icons/ri";
+// import { VscFolderActive } from "react-icons/vsc";
+// import { RiChatSmile2Fill } from "react-icons/ri";
 import { IoBicycle } from "react-icons/io5";
 
 const About = () => {
@@ -38,12 +38,12 @@ const About = () => {
           </div>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum cum
-            optio possimus aliquam accusantium sed. Reiciendis voluptate ut quas
-            nulla culpa, provident optio necessitatibus nam? Totam voluptate,
-            repudiandae, doloremque eos laudantium ab, ipsa officiis debitis
-            facere tenetur nisi voluptas incidunt a sint veritatis minima
-            obcaecati
+            Hey there! 👋 I'm Akhtar, a front-end developer passionate about
+            crafting engaging and user-friendly websites. Armed with skills in
+            HTML, CSS, and JavaScript, React.js I turn designs into interactive digital
+            experiences. With an eye for detail and a love for clean code, I
+            thrive on creating visually appealing and seamless interfaces. Let's
+            build something awesome together!
           </p>
           <a href="#contact" className="btn btn-primary">
             Let&apos;s Talk

@@ -3,6 +3,9 @@ header {
   padding-top: 7rem;
   overflow: hidden;
 }
+span {
+  color: var(--color-primary);
+}
 .header_container {
   text-align: center;
   height: 100%;
@@ -48,7 +51,7 @@ header {
   margin-top: 2rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  padding: 2rem 0.5rem 0.5rem 0.5rem;
 }
 
 /* ====================== SCROLL DOWN ===================== */
@@ -80,5 +83,8 @@ header {
   .header_social,
   .scroll_down {
     display: none;
+  }
+  .cta {
+    margin: 1.5rem;
   }
 }
