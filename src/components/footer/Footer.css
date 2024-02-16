@@ -41,7 +41,7 @@ footer a {
 @media screen and (max-width: 600px) {
   .permalink {
     /* flex-direction: column; */
-    /* gap: 1.2rem; */
+    gap: 1.2rem;
   }
   .footer_socials {
     margin-bottom: 2rem;
