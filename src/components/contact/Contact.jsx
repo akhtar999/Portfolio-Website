@@ -29,7 +29,7 @@ const Contact = () => {
           <ContactCard
             icon={<FiMail />}
             contactBy="Email"
-            contactTo="itsakhtar999@gmail.com"
+            contactTo="iakhtar.dev@gmail.com"
             contactLink="mailto:itsakhtar999@gmail.com"
           />
           <ContactCard
