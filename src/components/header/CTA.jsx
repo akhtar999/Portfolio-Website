@@ -1,4 +1,4 @@
-import resume from "../../assets/Akhtarul's Resume.pdf";
+import resume from "../../assets/Akhtarul's resume.pdf";
 
 const Cta = () => {
   return (
