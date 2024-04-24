@@ -11,6 +11,7 @@ import p8 from "../../assets/portfolio8.png";
 import p9 from "../../assets/portfolio9.png";
 import p10 from "../../assets/portfolio10.png";
 import p11 from "../../assets/portfolio11.png";
+import p12 from "../../assets/portfolio12.png";
 
 const Portfolio = () => {
   return (
@@ -18,6 +19,11 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
+        <PortfolioItem
+          title="MERN Stack Chat Application"
+          image={p12}
+          githubLink="https://github.com/akhtar999/ChatBit"
+        />
         <PortfolioItem
           title="E-commerce (React.js)"
           image={p3}
