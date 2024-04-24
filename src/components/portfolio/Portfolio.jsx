@@ -33,7 +33,7 @@ const Portfolio = () => {
         <PortfolioItem
           title="MovieBuzz (React.js)"
           image={p4}
-          githubLink="https://github.com"
+          // githubLink="https://github.com"
           demoLink="https://movie-buzz-525302.netlify.app"
         />
         <PortfolioItem
